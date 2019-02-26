@@ -40,7 +40,7 @@ class PleinDag extends React.Component {
   }
 }
 
-BlogRoll.propTypes = {
+PleinDag.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
