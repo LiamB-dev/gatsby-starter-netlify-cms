@@ -1,33 +1,31 @@
 ---
-templateKey: 'blog-post'
-title: 'Just in: small batch of Jamaican Blue Mountain in store next week'
+templateKey: blog-post
+title: Wat kost dat?
 date: 2017-01-04T15:04:10.000Z
-description: >-
-  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
-  Mountain coffee beans in our store next week.
+description: Prijzen en hoe betalen
 tags:
-  - jamaica
-  - green beans
-  - flavor
-  - tasting
+  - algemene info
 ---
+De prijs voor een volledige dag speelplein bedraagt € 5. Een halve dag kost € 3. Om dit te betalen, gebruiken wij ‘Speelpleinkaarten’.
 
-We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.
 
-Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas parishes of Jamaica.
 
-## A little history
+Elke dag kan u aan de inkom van ons speelplein een speelpleinkaart kopen. Deze kaart kost € 20. Op de speelpleinkaart staan 20 dino's. Als kinderen de hele dag komen, kost dit 5 dino's. Als ze een halve dag komen, kost dit 3 dino's.
 
-The Blue Mountains are considered by many to be a hiker's and camper's paradise. The traditional Blue Mountain trek is a 7-mile hike to the peak and consists of a 3,000-foot increase in elevation. Jamaicans prefer to reach the peak at sunrise, thus the 3–4 hour hike is usually undertaken in darkness. Since the sky is usually very clear in the mornings, Cuba can be seen in the distance.
 
->Some of the plants found on the Blue Mountain cannot be found anywhere else in the world and they are often of a dwarfed sort.
 
-This is mainly due to the cold climate which inhibits growth. The small coffee farming communities of Claverty Cottage and Hagley Gap are located near the peak.
+Deze kaart blijft heel de zomer, en ook nog de volgende zomers geldig.
 
-## What you need to know before trying
 
-Jamaican Blue Mountain Coffee or Jamaica Blue Mountain Coffee is a classification of coffee grown in the Blue Mountains of Jamaica. The best lots of Blue Mountain coffee are noted for their mild flavor and lack of bitterness. Over the past few decades, this coffee has developed a reputation that has made it one of the most expensive and sought-after coffees in the world. Over 80% of all Jamaican Blue Mountain Coffee is exported to Japan. In addition to its use for brewed coffee, the beans are the flavor base of Tia Maria coffee liqueur.
 
-Jamaican Blue Mountain Coffee is a globally protected certification mark, meaning only coffee certified by the Coffee Industry Board of Jamaica can be labeled as such. It comes from a recognized growing region in the Blue Mountain region of Jamaica, and its cultivation is monitored by the Coffee Industry Board of Jamaica.
+De oude kaarten gelden dit jaar nog met hun eigen systeem van 3 sterren voor een hele dag en 2 sterren voor een halve, deze zijn na deze zomer echter verlopen en ook nu al niet meer verkrijgbaar.
 
-The Blue Mountains are generally located between Kingston to the south and Port Antonio to the north. Rising 7,402 ft, they are some of the highest mountains in the Caribbean. The climate of the region is cool and misty with high rainfall. The soil is rich, with excellent drainage. This combination of climate and soil is considered ideal for coffee.
+
+
+Houders van een vrijetijds pas krijgen korting op deze tarieven.
+
+
+
+Ter info: sommige mutualiteiten betalen een deel terug wanneer kinderen naar een speelpleinwerking of jeugdvereniging zijn geweest. Deze formulieren kan u verkrijgen bij uw ziekenfonds of zelf thuis afprinten. Tijdens de zomer kan u deze overhandigen aan 1 van onze animatoren. Na de zomer belt of mailt u best even hoe dit geregeld kan worden.
+
+De fiscale attesten worden niet door ons, maar door de gemeente geregeld.
