@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 
-class BlogRoll extends React.Component {
+class PleinDag extends React.Component {
 
   render() {
     const { data } = this.props
@@ -74,7 +74,7 @@ export default () => (
     }
     `}
     render={(data, count) => (
-      <BlogRoll data={data} count={count} />
+      <PleinDag data={data} count={count} />
     )}
   />
 )
