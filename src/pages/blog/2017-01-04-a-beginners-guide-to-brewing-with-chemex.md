@@ -1,10 +1,8 @@
 ---
 templateKey: blog-post
 title: Wanneer en waar
-date: 2017-01-04T15:04:10.000Z
 description: Locatie en belangrijke data
-tags:
-  - ''
+
 ---
 Ook in 2019 zullen wij te vinden zijn op dezelfde locatie, namelijk het wijkhuis in Sterbos.
 
