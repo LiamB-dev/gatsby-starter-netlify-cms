@@ -58,11 +58,11 @@ const Footer = class extends React.Component {
                 </div>
                 <div className="column is-4 social">
                 
-                  <a title="facebook" href="https://www.facebook.com/Speelplein-Wuustwezel-489493887871619/">
+                  <a title="facebook" href="https://www.facebook.com/Speelplein-Wuustwezel-489493887871619/" target="_blank">
                     <img 
                       src={facebook}
                       alt="Facebook"
-                      style={{ width: '10em', height: '10em' }}
+                      style={{ width: '5em', height: '5em' }}
                     />
                   </a>
                 </div>
