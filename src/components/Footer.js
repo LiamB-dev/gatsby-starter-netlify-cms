@@ -62,7 +62,7 @@ const Footer = class extends React.Component {
                     <img 
                       src={facebook}
                       alt="Facebook"
-                      style={{ width: '5em', height: '5em' }}
+                      style={{ width: '1em', height: '1em' }}
                     />
                   </a>
                 </div>
