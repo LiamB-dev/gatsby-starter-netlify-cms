@@ -46,9 +46,9 @@ const Navbar = class extends React.Component {
               <span />
             </div>
           </div>
-          <div id="navMenu" className="navbar-menu has-background-black has-text-white-ter">
+          <div id="navMenu" className="navbar-menu has-background-black">
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/">
+              <Link className="navbar-item has-text-white-ter" to="/">
                 Home
               </Link>
               <Link className="navbar-item" to="/blog">
