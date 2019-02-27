@@ -51,19 +51,19 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item has-text-white-ter" to="/">
                 Home
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar-item has-text-white-ter" to="/blog">
                 Info
               </Link>
-              <Link className="navbar-item" to="/specials">
+              <Link className="navbar-item has-text-white-ter" to="/specials">
                 Specials
               </Link>
-              <Link className="navbar-item" to="/animatoren">
+              <Link className="navbar-item has-text-white-ter" to="/animatoren">
                 Animatoren
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link className="navbar-item has-text-white-ter" to="/contact">
                 Contact
               </Link>
-              <a className="navbar-item" href="https://www.facebook.com/Speelplein-Wuustwezel-489493887871619/" target="_blank">
+              <a className="navbar-item has-text-white-ter" href="https://www.facebook.com/Speelplein-Wuustwezel-489493887871619/" target="_blank">
                 Facebook
               </a>
             </div>
