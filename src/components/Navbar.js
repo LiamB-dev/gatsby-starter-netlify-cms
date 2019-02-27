@@ -63,14 +63,14 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-              <Link className="navbar-item" to="https://www.facebook.com/Speelplein-Wuustwezel-489493887871619/">
+              <Link className="navbar-item" src="https://www.facebook.com/Speelplein-Wuustwezel-489493887871619/">
                 Facebook
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a>
                 <span className="icon">
-                  <img src="../img/spLogo.jpeg" alt="Logo" />
+                  <img src="/../img/spLogo.jpeg" alt="Logo" />
                 </span>
               </a>
             </div>
