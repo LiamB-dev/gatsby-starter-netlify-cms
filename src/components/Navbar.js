@@ -30,7 +30,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar has-background-black has-text-white-ter"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
       >
@@ -46,7 +46,7 @@ const Navbar = class extends React.Component {
               <span />
             </div>
           </div>
-          <div id="navMenu" className="navbar-menu">
+          <div id="navMenu" className="navbar-menu has-background-black has-text-white-ter">
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/">
                 Home
