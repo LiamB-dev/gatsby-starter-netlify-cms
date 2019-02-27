@@ -70,7 +70,7 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered">
               <a>
                 <span className="icon">
-                  <img src={github} alt="Logo" height="200em" width="200em" />
+                  <img src={github} alt="Logo" height="500em" width="500em" />
                 </span>
               </a>
             </div>
