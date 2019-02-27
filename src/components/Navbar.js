@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import github from '../img/spLogo.jpeg'
+import logo from '../img/spLogo.jpeg'
 
 const Navbar = class extends React.Component {
   componentDidMount() {
@@ -70,7 +70,7 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered">
               <a>
                 <span className="icon">
-                  <img src="/../img/spLogo.jpeg" alt="Logo" />
+                  <img src={github} alt="Logo" />
                 </span>
               </a>
             </div>
