@@ -31,6 +31,7 @@ const Navbar = class extends React.Component {
     return (
       <nav
         className="navbar has-background-black"
+        position="fixed"
         role="navigation"
         aria-label="main-navigation"
       >
