@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/spLogo.jpeg'
-import logo from '../img/spLogo.jpeg'
 
 const Navbar = class extends React.Component {
   componentDidMount() {
