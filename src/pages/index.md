@@ -16,18 +16,14 @@ intro:
     - image: /img/tutorials.png
       text: >-
         Hey allemaal,
-         
         De zomer is alweer even afgelopen en dus vliegen wij er weer vollen bak
         tegenaan om er volgende zomer weer helemaal voorbereid te staan voor uw
         liefste kapoentjes.
-         
         Toch nog kort even terugdenken aan de afgelopen zomer die weer
         fantastisch is verlopen met een hele hoop vrolijke kinderen, missie
         geslaagd zou ik zeggen.
-         
         Bedankt voor de vele bedankingen en steun van iedereen die zijn
         vertrouwen in ons stelde deze zomer!
-
         Het speelpleinteam
     - image: /img/meeting-space.png
       text: >-
