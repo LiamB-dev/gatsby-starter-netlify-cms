@@ -9,6 +9,9 @@ import BlogRoll from '../components/BlogRoll'
 export const IndexPageTemplate = ({
   image,
   title,
+  heading,
+  mainpitch,
+  description,
   intro,
   main,
 }) => (
@@ -99,6 +102,9 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
+        heading={frontmatter.heading}
+        mainpitch={frontmatter.mainpitch}
+        description={frontmatter.description}
         intro={frontmatter.intro}
       />
     </Layout>
