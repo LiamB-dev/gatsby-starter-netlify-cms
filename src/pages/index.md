@@ -44,5 +44,5 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
   heading: What we offer
---- 
+---
 
