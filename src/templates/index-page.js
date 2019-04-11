@@ -1,17 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import {graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 
 export const IndexPageTemplate = ({
   image,
   title,
-  heading,
   mainpitch,
-  description,
-  intro,
-  main,
 }) => (
     <div>
         <div
@@ -58,7 +54,6 @@ export const IndexPageTemplate = ({
                   <h1 className="title">{mainpitch.title}</h1>
                 </div>
                 <div className="tile">
-                  <h3 className="subtitle">{mainpitch.description}</h3>
                 </div>
               </div>
 
@@ -74,12 +69,6 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
 }
 
 const IndexPage = ({ data }) => {
@@ -90,10 +79,6 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
       />
     </Layout>
   )
