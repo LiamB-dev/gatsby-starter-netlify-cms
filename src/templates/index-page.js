@@ -62,6 +62,7 @@ export const IndexPageTemplate = ({
                     <h1>{heading1}</h1>
                     {body1}
                   </div>
+                  <div className="is-2"></div>
                   <div className="is-4">
                     <h1>{heading2}</h1>
                     {body2}
@@ -73,6 +74,7 @@ export const IndexPageTemplate = ({
                     <h1>{heading3}</h1>
                     {body3}
                   </div>
+                  <div className="is-2"></div>
                   <div className="is-4">
                     <h1>{heading4}</h1>
                     {body4}
