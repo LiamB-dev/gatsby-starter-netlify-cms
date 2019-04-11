@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import AnimatorRoll from '../../components/AnimatorRoll'
 
 export default class AnimatorIndexPage extends React.Component {
   render() {
@@ -12,7 +12,7 @@ export default class AnimatorIndexPage extends React.Component {
           <div className="container">
             <div className="content">
             </div>
-              <BlogRoll />
+              <AnimatorRoll />
             </div>    
         </section>
       </Layout>
