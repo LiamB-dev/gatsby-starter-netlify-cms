@@ -89,6 +89,14 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
+  heading1: PropTypes.string,
+  body1: PropTypes.string,
+  heading2: PropTypes.string,
+  body2: PropTypes.string,
+  heading3: PropTypes.string,
+  body3: PropTypes.string,
+  heading4: PropTypes.string,
+  body4: PropTypes.string,
 }
 
 const IndexPage = ({ data }) => {
@@ -99,6 +107,14 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
+        heading1={frontmatter.title}
+        body1={frontmatter.title}
+        heading2={frontmatter.title}
+        body2={frontmatter.title}
+        heading3={frontmatter.title}
+        body3={frontmatter.title}
+        heading4={frontmatter.title}
+        body4={frontmatter.title}
       />
     </Layout>
   )
