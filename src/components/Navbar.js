@@ -68,11 +68,11 @@ const Navbar = class extends React.Component {
             </div>
             <div className="navbar-end has-text-centered">
             <h1 className="navbar-item has-text-white-ter">Speelplein Wuustwezel</h1>
-              <a>
+              <div>
                 <span className="navbar-item has-text-white-ter">
                   <img src={github} alt="Logo" height="100%"/>
                 </span>
-              </a>
+              </div>
             </div>
           </div>
         </div>
