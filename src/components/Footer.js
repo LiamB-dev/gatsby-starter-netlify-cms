@@ -29,7 +29,7 @@ const Footer = class extends React.Component {
                     </ul>
                   </section>
                 </div>
-                <div className="column is-2 social">
+                <div className="column is-6 social">
                 
                   <a title="facebook" href="https://www.facebook.com/Speelplein-Wuustwezel-489493887871619/" target="_blank">
                     <img 
