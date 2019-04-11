@@ -91,14 +91,14 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading1: PropTypes.string,
-  body1: PropTypes.string,
-  heading2: PropTypes.string,
-  body2: PropTypes.string,
-  heading3: PropTypes.string,
-  body3: PropTypes.string,
-  heading4: PropTypes.string,
-  body4: PropTypes.string,
+  heading1: PropTypes.markdownRemark,
+  body1: PropTypes.markdownRemark,
+  heading2: PropTypes.markdownRemark,
+  body2: PropTypes.markdownRemark,
+  heading3: PropTypes.markdownRemark,
+  body3: PropTypes.markdownRemark,
+  heading4: PropTypes.markdownRemark,
+  body4: PropTypes.markdownRemark
 }
 
 const IndexPage = ({ data }) => {
