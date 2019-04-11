@@ -7,7 +7,14 @@ import Layout from '../components/Layout'
 export const IndexPageTemplate = ({
   image,
   title,
-  mainpitch,
+  heading1,
+  body1,
+  heading2,
+  body2,
+  heading3,
+  body3,
+  heading4,
+  body4,  
 }) => (
     <div>
         <div
@@ -51,6 +58,22 @@ export const IndexPageTemplate = ({
             <div className="content">
               <div className="content">
                 <div className="tile">
+                <div className="is-4">
+                    {heading1}
+                    {body1}
+                  </div>
+                  <div className="is-4">
+                    {heading2}
+                    {body2}
+                  </div>
+                  <div className="is-4">
+                    {heading3}
+                    {body3}
+                  </div>
+                  <div className="is-4">
+                    {heading4}
+                    {body4}
+                  </div>                  
                 </div>
               </div>
 
@@ -102,6 +125,14 @@ query IndexPageTemplate {
               ...GatsbyImageSharpFluid
             }
           }
+        heading1
+        body1
+        heading2
+        body2
+        heading3
+        body3
+        heading4
+        body4
         }
       }
     }
