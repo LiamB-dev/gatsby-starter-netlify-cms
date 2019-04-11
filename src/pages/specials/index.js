@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import SpecialRoll from '../../components/BlogRoll'
+import SpecialRoll from '../../components/SpecialRoll'
 
 export default class SpecialIndexPage extends React.Component {
   render() {
