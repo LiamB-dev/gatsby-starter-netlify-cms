@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Welkom bij speelplein Wuustwezel!
-image: /img/splogo.jpeg
+image: /img/favicon-32x32.png
 heading1: Welkom bij Speelplein Wuustwezel
 body1: >-
   Welkom op de website van Speelplein Wuustwezel. Hopelijk vind je hier
