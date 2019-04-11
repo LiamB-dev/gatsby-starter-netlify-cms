@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import SpecialRoll from '../../components/SpecialRoll'
+import BlogRoll from '../../components/BlogRoll'
 
 export default class SpecialIndexPage extends React.Component {
   render() {
@@ -12,7 +12,7 @@ export default class SpecialIndexPage extends React.Component {
           <div className="container">
             <div className="content">
             </div>
-              <SpecialRoll />
+              <BlogRoll />
             </div>    
         </section>
       </Layout>
