@@ -125,8 +125,15 @@ query IndexPageTemplate {
               ...GatsbyImageSharpFluid
             }
           }
-        
         }
+        heading1
+        body1
+        heading2
+        body2
+        heading3
+        body3
+        heading4
+        body4
       }
     }
   }
