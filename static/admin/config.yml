@@ -47,5 +47,13 @@ collections:
         name: "Index Page"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Heading1", name: "heading"1, widget: "string"}
+          - {label: "Body1", name: "body1", widget: "markdown"}
+          - {label: "Heading2", name: "heading"1, widget: "string"}
+          - {label: "Body2", name: "body1", widget: "markdown"}
+          - {label: "Heading3", name: "heading"1, widget: "string"}
+          - {label: "Body3", name: "body1", widget: "markdown"}
+          - {label: "Heading4", name: "heading"1, widget: "string"}
+          - {label: "Body4", name: "body1", widget: "markdown"}
