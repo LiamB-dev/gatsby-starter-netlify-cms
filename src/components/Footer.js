@@ -29,22 +29,6 @@ const Footer = class extends React.Component {
                     </ul>
                   </section>
                 </div>
-                <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                  <li>
-                    <Link className="navbar-item" to="/blog">
-                      Info
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="navbar-item" to="/contact">
-                      Contact
-                    </Link>
-                  </li>
-                  </ul>
-                </section>
-                </div>
                 <div className="column is-4 social">
                 
                   <a title="facebook" href="https://www.facebook.com/Speelplein-Wuustwezel-489493887871619/" target="_blank">
