@@ -98,7 +98,7 @@ IndexPageTemplate.propTypes = {
   heading3: PropTypes.markdownRemark,
   body3: PropTypes.markdownRemark,
   heading4: PropTypes.markdownRemark,
-  body4: PropTypes.markdownRemark
+  body4: PropTypes.shape
 }
 
 const IndexPage = ({ data }) => {
