@@ -52,8 +52,6 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="tile">
                 </div>
-                <div className="tile">
-                </div>
               </div>
 
             </div>
