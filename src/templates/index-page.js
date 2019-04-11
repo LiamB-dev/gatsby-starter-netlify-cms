@@ -63,7 +63,7 @@ export const IndexPageTemplate = ({
                   <h3 className="subtitle">{mainpitch.description}</h3>
                 </div>
               </div>
-              
+
             </div>
           </div>
         </div>
@@ -122,26 +122,6 @@ query IndexPageTemplate {
               ...GatsbyImageSharpFluid
             }
           }
-        }
-        heading
-        mainpitch {
-          title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
         }
       }
     }
