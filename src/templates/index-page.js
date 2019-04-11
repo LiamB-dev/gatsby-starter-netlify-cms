@@ -59,19 +59,19 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="tile">
                 <div className="is-4">
-                    {heading1}
+                    <h1>{heading1}</h1>
                     {body1}
                   </div>
                   <div className="is-4">
-                    {heading2}
+                    <h1>{heading2}</h1>
                     {body2}
                   </div>
                   <div className="is-4">
-                    {heading3}
+                    <h1>{heading3}</h1>
                     {body3}
                   </div>
                   <div className="is-4">
-                    {heading4}
+                    <h1>{heading4}</h1>
                     {body4}
                   </div>                  
                 </div>
@@ -107,14 +107,14 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        heading1={frontmatter.title}
-        body1={frontmatter.title}
-        heading2={frontmatter.title}
-        body2={frontmatter.title}
-        heading3={frontmatter.title}
-        body3={frontmatter.title}
-        heading4={frontmatter.title}
-        body4={frontmatter.title}
+        heading1={frontmatter.heading1}
+        body1={frontmatter.body1}
+        heading2={frontmatter.heading2}
+        body2={frontmatter.body2}
+        heading3={frontmatter.heading3}
+        body3={frontmatter.body3}
+        heading4={frontmatter.heading4}
+        body4={frontmatter.body4}
       />
     </Layout>
   )
