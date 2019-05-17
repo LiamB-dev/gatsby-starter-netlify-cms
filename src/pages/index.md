@@ -40,10 +40,10 @@ body3: >-
   Het speelpleinteam
 heading4: We need you!
 body4: >-
----
   Word je in 2019 minimum 15 jaar en vind je het super om tijdens de
   vakantieperiodes kampen te bouwen, raketten te fabriceren, een bosspel te
   spelen,... met een bende uitgelaten kinderen en andere animatoren? Dan is
-  speelpleinwerk echt iets voor jou! Neem vooral een kijkje op <http://speelplein.net/>.
+  speelpleinwerk echt iets voor jou! Neem vooral een kijkje op [deze
+  website](http://speelplein.net/).
 ---
 
