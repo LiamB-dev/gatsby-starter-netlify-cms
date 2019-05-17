@@ -55,7 +55,7 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="section">
             <div className="columns">
-              <div className="column is-2">
+              <div className="column is-4">
                 <div className="content">
                   <div className="tile">
                     <div>
