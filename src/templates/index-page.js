@@ -58,11 +58,11 @@ export const IndexPageTemplate = ({
               <div className="column is-10 is-offset-1">
                 <div className="content">
                   <div className="tile">
-                    <div className="is-4">
+                    <div className="is-2">
                       <h1>{heading1}</h1>
                       {body1}
                     </div>
-                    <div className="is-4">
+                    <div className="is-2">
                       <h1>{heading2}</h1>
                       {body2}
                     </div>
