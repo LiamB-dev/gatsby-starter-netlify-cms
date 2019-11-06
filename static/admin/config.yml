@@ -58,7 +58,7 @@ collections:
           - {label: "Heading4", name: "heading4", widget: "string"}
           - {label: "Body4", name: "body4", widget: "markdown"}
 
-      - file: "src/contact/contact.md"
+      - file: "src/pages/contact/contact.md"
         label: "Contact Page"
         name: "contact Page"
         fields:
