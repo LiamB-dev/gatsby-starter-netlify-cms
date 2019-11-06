@@ -39,6 +39,17 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "contact"
+    label: "Contact"
+    folder: "src/pages/contact"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+
   - name: "pages"
     label: "Pages"
     files:
@@ -57,12 +68,3 @@ collections:
           - {label: "Body3", name: "body3", widget: "markdown"}
           - {label: "Heading4", name: "heading4", widget: "string"}
           - {label: "Body4", name: "body4", widget: "markdown"}
-
-      - file: "src/pages/contact/contact.md"
-        label: "Contact Page"
-        name: "contact Page"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Heading1", name: "heading1", widget: "string"}
-          - {label: "Body1", name: "body1", widget: "markdown"}
