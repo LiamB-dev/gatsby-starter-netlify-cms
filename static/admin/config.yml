@@ -42,7 +42,7 @@ collections:
   - name: "contact"
     label: "Contact"
     folder: "src/pages/contact"
-    create: false
+    create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
       - {label: "Body", name: "body", widget: "markdown"}
