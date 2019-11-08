@@ -44,6 +44,7 @@ collections:
     folder: "src/pages/contact"
     create: false
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "pages"
