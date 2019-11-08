@@ -43,6 +43,7 @@ collections:
     label: "Contact"
     folder: "src/pages/contact"
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
       - {label: "Body", name: "body", widget: "markdown"}
