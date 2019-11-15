@@ -64,7 +64,6 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
           - {label: "Heading1", name: "heading1", widget: "string"}
           - {label: "Body1", name: "body1", widget: "markdown"}
           - {label: "Heading2", name: "heading2", widget: "string"}
