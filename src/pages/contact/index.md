@@ -1,7 +1,6 @@
 ---
 templateKey: index-page
 title: Welkom bij speelplein Wuustwezel!
-image: /img/favicon-32x32.png
 heading1: Welkom bij Speelplein Wuustwezel
 body1: >-
   Welkom op de website van Speelplein Wuustwezel. Hopelijk vind je hier
@@ -20,18 +19,18 @@ heading3: Einde zomer
 body3: >-
   Hey allemaal,
 
-   
+
 
   De zomer is alweer even afgelopen en dus vliegen wij er weer vollen bak
   tegenaan om er volgende zomer weer helemaal voorbereid te staan voor uw
   liefste kapoentjes.
 
-   
+
 
   Toch nog kort even terugdenken aan de afgelopen zomer die weer fantastisch is
   verlopen met een hele hoop vrolijke kinderen, missie geslaagd zou ik zeggen.
 
-   
+
 
   Bedankt voor de vele bedankingen en steun van iedereen die zijn vertrouwen in
   ons stelde deze zomer!
@@ -46,4 +45,3 @@ body4: >-
   speelpleinwerk echt iets voor jou! Neem vooral een kijkje op [deze
   website](http://speelplein.net/).
 ---
-
