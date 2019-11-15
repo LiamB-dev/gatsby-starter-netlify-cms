@@ -60,7 +60,7 @@ collections:
 
       - file: "src/pages/contact/index.md"
         label: "Contact Page"
-        name: "Index Page"
+        name: "contact page"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: "Title", name: "title", widget: "string"}
