@@ -5,30 +5,12 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
 export const IndexPageTemplate = ({
-  image,
   title,
-  heading1,
-  body1,
-  heading2,
-  body2,
-  heading3,
-  body3,
-  heading4,
-  body4,
+  body
+
 }) => (
     <div>
-      <div
-        className="full-width-image margin-top-0"
-        style={{
-          backgroundImage: `url(${
-            !!image.childImageSharp
-              ? image.childImageSharp.fluid.src
-              : image
-            })`,
-          backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
-        }}
-      >
+      <div>
         <div style={{
           display: 'flex',
           height: '150px',
@@ -62,20 +44,6 @@ export const IndexPageTemplate = ({
                       <h1>{heading1}</h1>
                       {body1}
                     </div>
-                    <div className="column">
-                      <h1>{heading2}</h1>
-                      {body2}
-                    </div>
-                  </div>
-                  <div className="tile">
-                    <div className="column">
-                      <h1>{heading3}</h1>
-                      {body3}
-                    </div>
-                    <div className="column">
-                      <h1>{heading4}</h1>
-                      {body4}
-                    </div>
                   </div>
                 </div>
               </div>
@@ -87,16 +55,8 @@ export const IndexPageTemplate = ({
   )
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading1: PropTypes.markdownRemark,
-  body1: PropTypes.markdownRemark,
-  heading2: PropTypes.markdownRemark,
-  body2: PropTypes.markdownRemark,
-  heading3: PropTypes.markdownRemark,
-  body3: PropTypes.markdownRemark,
-  heading4: PropTypes.markdownRemark,
-  body4: PropTypes.shape
+  body: PropTypes.markdownRemark
 }
 
 const IndexPage = ({ data }) => {
@@ -105,16 +65,8 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
         title={frontmatter.title}
-        heading1={frontmatter.heading1}
-        body1={frontmatter.body1}
-        heading2={frontmatter.heading2}
-        body2={frontmatter.body2}
-        heading3={frontmatter.heading3}
-        body3={frontmatter.body3}
-        heading4={frontmatter.heading4}
-        body4={frontmatter.body4}
+        body={frontmatter.body}
       />
     </Layout>
   )
@@ -135,21 +87,7 @@ query IndexPageTemplate {
   markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        heading1
-        body1
-        heading2
-        body2
-        heading3
-        body3
-        heading4
-        body4
+        body
       }
     }
   }
