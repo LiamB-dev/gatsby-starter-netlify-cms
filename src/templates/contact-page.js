@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 
-export const IndexPageTemplate = ({
+export const ContactPageTemplate = ({
   title,
   body
 
@@ -53,7 +53,7 @@ export const IndexPageTemplate = ({
     </div>
   )
 
-IndexPageTemplate.propTypes = {
+ContactPageTemplate.propTypes = {
   title: PropTypes.string,
   body: PropTypes.markdownRemark
 }
@@ -63,7 +63,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <IndexPageTemplate
+      <ContactPageTemplate
         title={frontmatter.title}
         body={frontmatter.body}
       />
@@ -71,7 +71,7 @@ const IndexPage = ({ data }) => {
   )
 }
 
-IndexPage.propTypes = {
+ContactPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
