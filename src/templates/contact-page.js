@@ -41,8 +41,7 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="tile">
                     <div className="column">
-                      <h1>{heading1}</h1>
-                      {body1}
+                      {body}
                     </div>
                   </div>
                 </div>
