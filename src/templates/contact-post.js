@@ -6,7 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const AnimatorPostTemplate = ({
+export const ContactPostTemplate = ({
   content,
   contentComponent,
   description,
@@ -46,7 +46,7 @@ export const AnimatorPostTemplate = ({
   )
 }
 
-AnimatorPostTemplate.propTypes = {
+ContactPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -54,17 +54,17 @@ AnimatorPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const AnimatorPost = ({ data }) => {
+const ContactPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <AnimatorPostTemplate
+      <ContactPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Animator">
+          <Helmet titleTemplate="%s | Contact">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -79,16 +79,16 @@ const AnimatorPost = ({ data }) => {
   )
 }
 
-AnimatorPost.propTypes = {
+ContactPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default AnimatorPost
+export default ContactPost
 
 export const pageQuery = graphql`
-  query AnimatorPostByID($id: String!) {
+  query ContactPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
