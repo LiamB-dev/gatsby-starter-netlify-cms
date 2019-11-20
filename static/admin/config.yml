@@ -42,6 +42,8 @@ collections:
   - name: "contact"
     label: "Contact Page"
     folder: "src/pages/contact"
+    create: true
+    slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
       - {label: "Title", name: "title", widget: "string"}
