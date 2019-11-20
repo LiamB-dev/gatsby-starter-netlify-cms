@@ -35,19 +35,7 @@ export const ContactPageTemplate = ({
       </div>
       <section className="section section--gradient">
         <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column">
-                <div className="content">
-                  <div className="tile">
-                    <div className="column">
-                      {body}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {body}
         </div>
       </section>
     </div>
