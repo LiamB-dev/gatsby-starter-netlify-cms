@@ -58,7 +58,7 @@ ContactPageTemplate.propTypes = {
   body: PropTypes.markdownRemark
 }
 
-const IndexPage = ({ data }) => {
+const ContactPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
@@ -79,11 +79,11 @@ ContactPage.propTypes = {
   }),
 }
 
-export default IndexPage
+export default ContactPage
 
 export const pageQuery = graphql`
-query IndexPageTemplate {
-  markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
+query ContactPageTemplate {
+  markdownRemark(frontmatter: {templateKey: {eq: "contact-page"}}) {
       frontmatter {
         title
         body
