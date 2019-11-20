@@ -1,6 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import ContactPage from '../../templates/contact-page'
 
 function encode(data) {
   return Object.keys(data)
