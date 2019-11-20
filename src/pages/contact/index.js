@@ -1,7 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
-import ContactPage from '../../components/contact-page'
+import ContactPageTemplate from '../../components/contact-page'
 
 function encode(data) {
   return Object.keys(data)
@@ -41,6 +41,9 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
               <h1>Contact</h1>
+              <div>
+                <ContactPageTemplate />
+              </div>
               <form
                 name="contact"
                 method="post"
