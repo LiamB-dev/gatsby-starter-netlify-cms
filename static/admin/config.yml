@@ -45,7 +45,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-post"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "pages"
