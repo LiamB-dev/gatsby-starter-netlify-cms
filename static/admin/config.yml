@@ -45,7 +45,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
