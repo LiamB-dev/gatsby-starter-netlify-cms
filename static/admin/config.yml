@@ -40,10 +40,10 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "contact"
-    label: "Contact Page"
+    label: "Contact"
     folder: "src/pages/contact"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-post"}
       - {label: "Title", name: "title", widget: "string"}
