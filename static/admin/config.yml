@@ -39,6 +39,14 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "contact"
+    label: "Contact Page"
+    folder: "src/pages/contact"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "pages"
     label: "Pages"
     files:
@@ -57,11 +65,3 @@ collections:
           - {label: "Body3", name: "body3", widget: "markdown"}
           - {label: "Heading4", name: "heading4", widget: "string"}
           - {label: "Body4", name: "body4", widget: "markdown"}
-
-      - file: "src/pages/contact/index.md"
-        label: "Contact Page"
-        name: "contact page"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
