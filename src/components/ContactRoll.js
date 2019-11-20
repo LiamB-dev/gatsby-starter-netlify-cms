@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 
-class AnimatorRoll extends React.Component {
+class ContactRoll extends React.Component {
 
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
-    
+
     return (
       <div className="columns is-multiline">
       {posts && (posts
@@ -39,7 +39,7 @@ class AnimatorRoll extends React.Component {
   }
 }
 
-AnimatorRoll.propTypes = {
+ContactRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -50,10 +50,10 @@ AnimatorRoll.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-    query AnimatorRollQuery {
+    query ContactRollQuery {
       allMarkdownRemark(
         sort: { fields: [frontmatter___date] },
-        filter: { frontmatter: { templateKey: { eq: "animator-post" } }}
+        filter: { frontmatter: { templateKey: { eq: "contact-post" } }}
       ) {
         edges {
           node {
@@ -72,7 +72,7 @@ export default () => (
     }
     `}
     render={(data, count) => (
-      <AnimatorRoll data={data} count={count} />
+      <ContactRoll data={data} count={count} />
     )}
   />
 )
