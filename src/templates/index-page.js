@@ -90,7 +90,7 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading1: PropTypes.markdownRemark,
-  body1: PropTypes.markdownRemark,
+  body1: PropTypes.func,
   heading2: PropTypes.markdownRemark,
   body2: PropTypes.markdownRemark,
   heading3: PropTypes.markdownRemark,
